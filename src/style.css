@@ -1,3 +1,7 @@
+:root {
+  --blue: #00acdc;
+}
+
 .logo {
   display: flex;
   width: 40px;
@@ -27,7 +31,7 @@ li a {
   flex-wrap: nowrap;
   position: relative;
   font-optical-sizing: auto;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: 'wdth' 100;
 }
 
 .main {
@@ -63,7 +67,7 @@ img {
 }
 
 .box-1 {
-  color: #00acdc !important;
+  color: var(--blue) !important;
   width: 37px;
 }
 
@@ -81,7 +85,7 @@ img {
 
 .box-4 {
   margin-left: 20px;
-  color: #00acdc !important;
+  color: var(--blue) !important;
   width: 138px;
 }
 
@@ -120,6 +124,6 @@ img {
   left: 0;
   width: 37px;
   height: 4px;
-  background-color: #00acdc;
+  background-color: var(--blue);
   border-radius: 8px;
 }

@@ -1,5 +1,5 @@
 .logo {
-  display: flexbox;
+  display: flex;
   width: 40px;
   height: 40px;
   opacity: 1;
@@ -8,6 +8,24 @@
 
 body {
   margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  flex-wrap: nowrap;
+  position: relative;
 }
 
 .main {
@@ -38,7 +56,7 @@ img {
   width: 691px;
 }
 
-a {
+/* a {
   font-family: Roboto, sans-serif;
   font-style: Roman;
   font-weight: 500;
@@ -48,14 +66,14 @@ a {
   text-transform: uppercase;
   flex-wrap: nowrap;
   position: relative;
-}
+} */
 
 .box {
   height: 15px;
 }
 
 .box-1 {
-  color: #00acdc;
+  color: #00acdc !important;
   width: 37px;
 }
 
@@ -73,7 +91,7 @@ a {
 
 .box-4 {
   margin-left: 20px;
-  color: #00acdc;
+  color: #00acdc !important;
   width: 138px;
 }
 

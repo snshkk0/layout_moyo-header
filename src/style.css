@@ -26,6 +26,8 @@ li a {
   text-transform: uppercase;
   flex-wrap: nowrap;
   position: relative;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
 }
 
 .main {
@@ -55,18 +57,6 @@ img {
   margin: 22px 50px 23px 509px;
   width: 691px;
 }
-
-/* a {
-  font-family: Roboto, sans-serif;
-  font-style: Roman;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-transform: uppercase;
-  flex-wrap: nowrap;
-  position: relative;
-} */
 
 .box {
   height: 15px;
